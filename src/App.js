@@ -17,7 +17,7 @@ class App extends Component {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Avengers: by Ben Tsao
           </a>
         </header>
       </div>
