@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { list } from 'postcss';
+import AvengersList from './components/Avengers'
 
 class App extends Component {
   constructor(){
@@ -27,7 +27,7 @@ class App extends Component {
             Avengers: by Ben Tsao
           </a>
         <ul>
-          {this.state.avengers.map((avenger, i) => <li key={i}>{avenger}</li> )}
+         <AvengersList avengers = { this.state.avengers }/>
         </ul>
         </header>
       </div>
